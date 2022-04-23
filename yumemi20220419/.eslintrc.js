@@ -27,5 +27,11 @@ module.exports = {
         extensions: ['.js', '.jsx', '.ts', '.tsx']
       }
     ]
+  },
+  globals: {
+    defineProps: "readonly",
+    defineEmits: "readonly",
+    defineExpose: "readonly",
+    withDefaults: "readonly"
   }
 }
